@@ -2,7 +2,7 @@ module.exports = function () {
 
     let development = {
         'port': 7107,
-        'database': 'mongodb://localhost/pak-events',
+        'database': 'mongodb://mongo:27017/hall-events',
         'base_url': 'https://localhost:7107/',
         'images_url': 'http://localhost:7107/images/',
         'secret': 'neversacrificehappinesssdssforachievemente-pharma21234asdadasd',
@@ -40,7 +40,7 @@ module.exports = function () {
 
     let production = {
         'port': 7107,
-        'database': 'mongodb://localhost/pak-events',
+        'database': 'mongodb://mongo:27017/hall-events',
         'base_url':   'http://www.app.cuufy.com:7107/',
         'images_url': 'http://www.app.cuufy.com:7107/images/',
         'secret': 'neversacrificehappinesssdssforachievemente-pharma21234asdadasd',
